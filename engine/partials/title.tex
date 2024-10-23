@@ -1,0 +1,21 @@
+% Headers and footers setup
+\usepackage[headsepline,footsepline]{scrlayer-scrpage}  % Add header and footer lines
+\usepackage{cleveref}  % Enable smart cross-referencing
+\pagestyle{scrheadings}  % Use predefined KOMA-Script page styles
+
+% Header configuration
+\lohead{Population PK Report \\ Report No.: \textbf{$report-number$}}
+\rohead{\textbf{$status$}}
+
+% Footer configuration
+\ifoot{CONFIDENTIAL}  % Left footer: Confidential notice
+\ofoot{\textbf{$date$}}  % Right footer: Rendered date
+\cfoot{Page \thepage}  % Center footer: Page numbering
+
+% Ensure consistent chapter styles
+\renewcommand*\chapterpagestyle{scrheadings}
+
+% Adjust long tables and styling for glossary usage
+\setlength\LTleft{0pt}  % Left alignment for long tables
+\setlength\LTright{0pt}  % Right alignment for long tables
+\renewcommand{\glsnamefont}[1]{#1}  % Use default font for glossary names

@@ -1,0 +1,6 @@
+# REFERENCES {#sec-references}
+
+*Provide all cited sources used in the report in a consistent and appropriate style.*
+
+::: {#refs}
+:::

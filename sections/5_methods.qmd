@@ -1,0 +1,18 @@
+# MATERIALS AND METHODS {#sec-methods}
+
+## Model Development
+
+### Structural Model
+*Describe the process for selecting the structural model. Include considerations such as the choice between one- and two-compartment models, linear vs. non-linear clearance, and the rationale behind these decisions. Specify the residual error model selected (e.g., additive, proportional, or combined) and the approach for modeling inter-individual variability (IIV).*
+
+### Covariate Model
+*Outline the strategy for identifying and testing covariate effects on pharmacokinetic parameters. Mention the types of covariates explored (e.g., body weight, renal function) and justify their inclusion based on clinical, biological, or pharmacological relevance. Describe the covariate selection method (e.g., stepwise inclusion/exclusion, full model approach) and specify the statistical criteria used (e.g., change in objective function value).*
+
+### Estimation Methods
+*Report the software used for the analysis (e.g., NONMEM, Monolix) along with the version and operating system. Detail the estimation approach (e.g., FOCE, Bayesian estimation) and describe any transformations applied to the parameters (e.g., log transformations for variability parameters).*
+
+### Model Evaluation
+*Summarize the evaluation framework to assess model adequacy. Mention the diagnostic criteria (e.g., goodness-of-fit plots, residual analysis) and statistical tests (e.g., likelihood ratio test) used to select the final model. Indicate the strategies used to avoid overfitting (e.g., shrinkage metrics, cross-validation).*
+
+### Sensitivity and Simulation Analyses
+*Explain the use of sensitivity analyses to evaluate the robustness of model predictions. Describe any simulations performed to predict outcomes under different dosing regimens or clinical scenarios, with the aim of supporting clinical recommendations.*

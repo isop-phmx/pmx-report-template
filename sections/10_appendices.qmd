@@ -1,0 +1,21 @@
+# APPENDICES {#sec-appendices}
+
+*The Appendix contains supplemental materials that provide additional context and support for the analysis, cross-referenced as needed within the main report.*
+
+- **Supplemental Tables and Figures**
+  *Summaries and analyses that support model development or conclusions, but are not central to the report.*
+
+- **Run Record**
+  *Detailed steps and decisions made during model development.*
+
+- **Methods and Code Documentation**
+  *Methods and scripts used to generate key figures and tables (preferably submitted separately).*
+
+- **Sample Removal List**
+  *Details of excluded samples with reasons for removal.*
+
+- **Data Flow Diagram**
+  *Visual representation of the relationships between input datasets, codes/control streams, and output datasets in the analysis.*
+
+- **Model Input and Output Files**
+  *Provide input and output files (e.g., NONMEM) relevant to the base and final models.*

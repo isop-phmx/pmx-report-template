@@ -1,0 +1,21 @@
+---
+# Define Metadata For Cover Page
+report-number: "PopPK-001"
+report-title: "PopPK Report Title"
+drug-name: "Drug A"
+indication: "Disease X"
+study-number: ABC-12345
+sponsor: ISoP Standards and Best Practices Working Group
+author: PB, MMJ, AR
+review: PB, MMJ, AR
+approve: PB, MMJ, AR
+date: today
+date-format: "DD MMM YYYY"
+status: DRAFT
+copyright:
+  text: "This is a Company Name. document that contains confidential information. It is intended solely for the recipient and must not be disclosed to any other party. This material may be used only for evaluating or conducting clinical investigations; any other proposed use requires written consent from Company Name."
+---
+
+# EXECUTIVE SUMMARY {#sec-executive-summary}
+
+*The executive summary provides a brief overview of the analysis, highlighting the purpose, key findings affecting usage, labeling, and any additional recommendations based on the population PK analysis. It should be concise, typically consisting of 2-3 short paragraphs, and prepared with the understanding that it may be copied and pasted into a regulatory document.*

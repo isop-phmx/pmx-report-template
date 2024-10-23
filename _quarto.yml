@@ -1,0 +1,64 @@
+project:
+  type: book
+  output-dir: report
+book:
+  title: "PopPK Report Title"
+  chapters:
+    - index.qmd # executive summary (first chapter needs to be named index and in root directory)
+    - sections/2_introduction.qmd
+    - sections/3_objectives.qmd
+    - sections/4_data.qmd
+    - sections/5_methods.qmd
+    - sections/6_results.qmd
+    - sections/7_discussion.qmd
+    - sections/8_conclusion.qmd
+    - sections/9_references.qmd
+    - sections/10_appendices.qmd
+    - sections/11_tips.qmd
+format:
+  pdf:
+    documentclass: scrreprt
+    toc: true
+    template-partials:
+      - engine/partials/title.tex
+      - engine/partials/before-body.tex
+      - engine/partials/toc.tex
+    include-in-header:
+      - engine/header.tex
+    keep-tex: true
+    toccolor: blue
+    lof: true
+    lot: true
+    toc-title: "Table of Contents"
+    link-citations: true
+    number-sections: true
+    start-numbering: 1
+    colorlinks: true
+    classoption:
+      - toc=chapterentrywithdots
+      - 11pt
+      - headings=small
+    crossref:
+      lof-title: List of Figures
+      lot-title: List of Tables
+    hyperrefoptions:
+    - linktoc=all
+    - pdfpagemode=FullScreen
+    - bookmarks=true
+    geometry:
+      - margin=.75in
+      - left=1in
+      - right=1in
+      - top=1in
+      - bottom=3cm
+      - footskip=2cm
+      - marginparwidth=1in
+      - marginparsep=0.75cm
+    mainfont: Times New Roman
+    mainfontoptions:
+        - Path=./engine/misc/Times/
+        - Extension=.ttf
+        - UprightFont=*
+        - BoldFont=* Bold
+        - ItalicFont=* Italic
+

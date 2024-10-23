@@ -1,0 +1,23 @@
+# RESULTS {#sec-results}
+
+## Exploratory Data Analysis
+*Summarize key characteristics of the dataset, including subject counts, time-concentration profiles, covariate distributions, and outliers. Present relevant tables and figures to support findings.*
+
+## Model Development
+
+### Base Model
+*Describe the initial structural model(s) tested, including assumptions and selection criteria. Report key parameters (e.g., compartment models, error structures) and highlight major model refinements.*
+
+### Covariate Model
+*Summarize covariate selection and analysis steps. Describe relationships between covariates and PK parameters, with forward inclusion/backward elimination results and objective function value (OFV) changes.*
+
+### Final Model
+*Present the final parameter estimates with their uncertainty (e.g., standard errors, confidence intervals, CV%). Describe any centering or scaling of covariates used. Provide a comparison between the base and final models.*
+
+## Model Evaluation
+*Evaluate model performance using diagnostic plots (e.g., goodness-of-fit, prediction-corrected VPCs). Report shrinkage and other diagnostic metrics. Include stratified results by key covariates if applicable.*
+
+## Model Application
+
+### Covariate Analysis
+*Describe the impact of covariates on model predictions and drug exposure. Present simulations or predictions under varying conditions (e.g., alternative dosing regimens, special populations).*

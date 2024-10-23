@@ -1,0 +1,15 @@
+# DATA {#sec-data}
+
+## Description of Studies
+*Provide an overview of the clinical studies included in the analysis, highlighting population, dosing regimen, sampling schedule, and study objectives.*
+
+## Bioanalytical Methods
+*Detail the assays used to measure drug concentrations, including the type of assay, validation parameters, and limits of quantification for each study.*
+
+## Analysis Datasets
+
+### Analysis Population
+*Describe the inclusion and exclusion criteria for the analysis population, with a summary of subject counts and data used across studies.*
+
+### Handling of Missing Data and Limit of Quantifications
+*Explain the approach for handling missing covariates, dose, and PK samples. Describe how data below the limit of quantification (LOQ) were flagged, excluded, or imputed.*

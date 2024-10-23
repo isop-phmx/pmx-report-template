@@ -1,0 +1,17 @@
+# TIPS {#sec-tips}
+
+*This section provides brief information on certain aspects of the report template, such as how to use abbreviations, references, etc*
+
+**Abbreviations:**
+
+*Abbreviations can be used throughout the report. The **gls** command can be used to define abbreviations in the text. For example, **`\gls{PK}`** will be replaced with **Pharmacokinetics (PK)** in the text the first time its used and **PK** for subsequent uses. The **glspl** command can be used to define plural abbreviations. For example, **`\glspl{PK}`** will be replaced with **Pharmacokinetics (PKs)**.*
+
+- *First Use:* \gls{PK}
+- *Second Use:* \gls{PK}
+
+
+**References:**
+
+*References can be cited in the text using the **cite** command. For example, **`\cite{ref1}`** will be replaced with **[1]** in the text. The **bibliography** section at the end of the report will contain the full citation.*
+
+- *Citation:* \cite{ref1}

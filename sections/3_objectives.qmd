@@ -1,0 +1,3 @@
+# OBJECTIVES {#sec-objectives}
+
+*Clearly state the primary and secondary goals of the analysis. Define the key questions the model seeks to answer (e.g., characterizing drug exposure, identifying significant covariates). Highlight any specific hypotheses to be tested and the intended application of the model (e.g., informing dosing recommendations or understanding variability across patient subgroups).*

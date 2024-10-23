@@ -1,0 +1,37 @@
+\usepackage{tabularray}
+\usepackage{booktabs}
+\usepackage{tabularx}
+\usepackage{mdframed}
+\usepackage[acronym, toc, nomain]{glossaries}
+\usepackage{todonotes}
+\usepackage{threeparttable}
+
+\makenoidxglossaries  % Required to generate glossaries
+\input{abbr.tex}
+
+\RedeclareSectionCommand[
+  beforeskip=0pt,
+  afterindent=false% <- added
+]{chapter}
+\setkomafont{chapter}{\fontsize{14}{16.8}\selectfont}
+\setkomafont{section}{\fontsize{12}{14}\selectfont}
+\setkomafont{subsection}{\fontsize{12}{14}\selectfont}
+%\usepackage{tocloft}
+
+\newglossarystyle{mystyle}
+{
+    \setglossarystyle{long3colheader}%
+    \renewcommand*{\glossaryheader}{
+    %  \textbf{Notation} & \textbf{Description} &
+      \vspace{8pt}
+    \endhead}%
+    \renewcommand*{\glossaryname}{}
+    \renewcommand*{\entryname}{}
+    \renewcommand*{\pagelistname}{}
+   % \renewcommand*{\descriptionname}{\textbf{Description}}
+    \renewcommand{\glossentry}[2]{%
+       \glsentryitem{##1}\glstarget{##1}{\glossentryname{##1}}
+        & \glossentrydesc{##1}
+        & ##2
+        \tabularnewline*}%
+}
