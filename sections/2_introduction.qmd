@@ -1,8 +1,3 @@
-# EXECUTIVE SUMMARY {#sec-executive-summary}
-
-*The executive summary provides a brief overview of the analysis, highlighting the purpose, key findings affecting usage, labeling, and any additional recommendations based on the population PK analysis. It should be concise, typically consisting of 2-3 short paragraphs, and prepared with the understanding that it may be copied and pasted into a regulatory document.*
-
-
 # INTRODUCTION {#sec-introduction}
 
 *Provide background information about the drug being analyzed and the role of the population PK analysis in the overall clinical development program. Highlight the relevance of the drug’s pharmacokinetic characteristics to the model development. Describe how the analysis aligns with the objectives of the clinical development plan and any special considerations pertinent to the study population or methodology.*

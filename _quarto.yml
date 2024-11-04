@@ -55,7 +55,14 @@ format:
       - marginparwidth=1in
       - marginparsep=0.75cm
     mainfont: Times New Roman
+    sansfont: Times New Roman
     mainfontoptions:
+        - Path=./engine/misc/Times/
+        - Extension=.ttf
+        - UprightFont=*
+        - BoldFont=* Bold
+        - ItalicFont=* Italic
+    sansfontoptions:
         - Path=./engine/misc/Times/
         - Extension=.ttf
         - UprightFont=*
@@ -63,7 +70,9 @@ format:
         - ItalicFont=* Italic
 
 
+
 # Define Metadata For Cover Page
+bibliography: engine/ref.bib
 report-number: "PopPK-001"
 report-title: "PopPK Report Title"
 drug-name: "Drug A"

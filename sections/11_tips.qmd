@@ -12,6 +12,8 @@
 
 **References:**
 
-*References can be cited in the text using the **cite** command. For example, **`\cite{ref1}`** will be replaced with **[1]** in the text. The **bibliography** section at the end of the report will contain the full citation.*
+*References can be cited in the text using the **`@`** followed by the key from bibtex input. 
 
-- *Citation:* \cite{ref1}
+- *Citation:* 
+
+To reference NONMEM `@NONMEM` {@NONMEM} or Monolix `@Monolix` {@Monolix} or Quarto `@Quarto` {@Quarto}
